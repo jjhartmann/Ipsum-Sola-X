@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "prefs",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"license" : [ "C02JVA00DTY4", "name@domain.com", "none" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
