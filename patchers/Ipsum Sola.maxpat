@@ -9788,13 +9788,13 @@
 					"patching_rect" : [ 594.0, 344.0, 199.0, 20.0 ],
 					"restore" : 					{
 						"dsp-switch" : [ 4 ],
-						"gain~" : [ 157 ],
-						"gain~[1]" : [ 157 ],
+						"gain~" : [ 128 ],
+						"gain~[1]" : [ 128 ],
 						"gain~[2]" : [ 0 ],
 						"live.dial" : [ 0.0 ],
 						"live.numbox[2]" : [ 4.0 ],
 						"multislider" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"multislider[1]" : [ 157 ],
+						"multislider[1]" : [ 128 ],
 						"multislider[2]" : [ 63 ],
 						"multislider[3]" : [ 63 ],
 						"multislider[4]" : [ 63 ],
@@ -9828,7 +9828,7 @@
 					}
 ,
 					"text" : "autopattr @greedy 1 @autoname 1",
-					"varname" : "u188005777"
+					"varname" : "u457014652"
 				}
 
 			}
@@ -24446,7 +24446,7 @@
 					"patching_rect" : [ 462.94342, 1443.502563, 34.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 858.0, 256.0, 34.0, 20.0 ],
-					"text" : "17",
+					"text" : "0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

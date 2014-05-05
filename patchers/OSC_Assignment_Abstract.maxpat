@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 138.0, 191.0, 18.0 ]
+					"patching_rect" : [ 9.0, 143.0, 209.0, 18.0 ]
 				}
 
 			}
@@ -182,11 +182,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 378.0, 111.0, 253.0, 37.0 ],
+						"rect" : [ 159.0, 431.0, 250.0, 28.0 ],
 						"bgcolor" : [ 0.168627, 0.168627, 0.168627, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -710,6 +710,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
@@ -1038,7 +1039,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-46", 1 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 0
+									"watchpoint_id" : 1
 								}
 
 							}
@@ -1347,7 +1348,7 @@
 									"midpoints" : [ 22.5, 412.0, 160.5, 412.0 ],
 									"source" : [ "obj-9", 0 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 0
+									"watchpoint_id" : 2
 								}
 
 							}
@@ -1656,7 +1657,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -1684,7 +1685,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OSC_Assignment_Abstract_Internals.maxpat",
-				"bootpath" : "/Users/JJHartmann/Dropbox/SFU FILES - ALL/Ipsum Sola/Ipsum Sola v0.4.X/Ipsum Sola/patchers",
+				"bootpath" : "/Volumes/Second HD/GitHub/Ipsum Sola X/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
