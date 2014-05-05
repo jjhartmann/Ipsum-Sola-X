@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 107.0, 116.0, 1173.0, 658.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 730.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,32 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 13,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 849.0, 68.0, 181.0, 20.0 ],
+					"text" : "unjoin 12 @ForOSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-15",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 849.0, 31.572205, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 8.0,
@@ -565,7 +591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 109.500122, 43.572205, 167.0, 32.0 ],
+					"patching_rect" : [ 109.50016, 43.572205, 167.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.617554, 120.5, 42.807495, 25.0 ]
 				}
@@ -860,7 +886,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x64"
 						}
 ,
@@ -4015,6 +4041,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4602,9 +4637,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-401" : [ "live.grid[4]", "live.grid", 0 ],
 			"obj-412" : [ "live.grid[5]", "live.grid", 0 ],
-			"obj-284" : [ "live.numbox[2]", "live.numbox", 0 ]
+			"obj-284" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-401" : [ "live.grid[4]", "live.grid", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
