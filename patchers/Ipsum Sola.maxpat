@@ -9787,14 +9787,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 594.0, 344.0, 199.0, 20.0 ],
 					"restore" : 					{
-						"dsp-switch" : [ 0 ],
-						"gain~" : [ 128 ],
-						"gain~[1]" : [ 128 ],
+						"dsp-switch" : [ 4 ],
+						"gain~" : [ 157 ],
+						"gain~[1]" : [ 157 ],
 						"gain~[2]" : [ 0 ],
 						"live.dial" : [ 0.0 ],
 						"live.numbox[2]" : [ 4.0 ],
 						"multislider" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"multislider[1]" : [ 128 ],
+						"multislider[1]" : [ 157 ],
 						"multislider[2]" : [ 63 ],
 						"multislider[3]" : [ 63 ],
 						"multislider[4]" : [ 63 ],
@@ -9817,7 +9817,7 @@
 						"textbutton[3]" : [ -1 ],
 						"textbutton[4]" : [ 1 ],
 						"textbutton[5]" : [ 0 ],
-						"textbutton[6]" : [ 1 ],
+						"textbutton[6]" : [ 0 ],
 						"textbutton[7]" : [ -1 ],
 						"textbutton[8]" : [ 0 ],
 						"textbutton[9]" : [ 0 ],
@@ -9828,7 +9828,7 @@
 					}
 ,
 					"text" : "autopattr @greedy 1 @autoname 1",
-					"varname" : "u155047324"
+					"varname" : "u188005777"
 				}
 
 			}
@@ -16719,7 +16719,7 @@
 					"name" : "signalprocessing_Mux.maxpat",
 					"numinlets" : 11,
 					"numoutlets" : 8,
-					"offset" : [ -3.0, -87.0 ],
+					"offset" : [ -882.0, -87.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 58.342777, 447.5, 335.570007, 200.143616 ],
 					"presentation" : 1,
@@ -24446,7 +24446,7 @@
 					"patching_rect" : [ 462.94342, 1443.502563, 34.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 858.0, 256.0, 34.0, 20.0 ],
-					"text" : "0",
+					"text" : "17",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
