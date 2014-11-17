@@ -2,8 +2,8 @@
 	"name" : "Ipsum Sola",
 	"version" : 1,
 	"creationdate" : -846427755,
-	"modificationdate" : 3460550063,
-	"viewrect" : [ 42.0, 59.0, 300.0, 500.0 ],
+	"modificationdate" : -795949724,
+	"viewrect" : [ -369.0, 128.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -106,7 +106,17 @@
 				"local" : 1
 			}
 ,
+			"MIDIOSC_Dynamic_Routing.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"Donate_Page.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effector_settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -151,14 +161,10 @@
 				"local" : 1
 			}
 ,
-			"effector_settings.maxpat" : 			{
+			"GPL_Licence.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"MIDIOSC_Dynamic_Routing.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
@@ -205,12 +211,12 @@
 		}
 ,
 		"externals" : 		{
-			"define_loudspeakers.mxo" : 			{
+			"vbap.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"vbap.mxo" : 			{
+			"define_loudspeakers.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -227,5 +233,7 @@
 
 	}
 ,
-	"detailsvisible" : 1
+	"detailsvisible" : 1,
+	"amxdtype" : 0,
+	"readonly" : 1
 }
